@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="minimalistic pomodoro timer made in html, css and javascript"
+    />
+    <meta
+      name="keywords"
+      content="pomodoro, timer, productivity, javascript, html, css"
+    />
+    <meta name="author" content="amxterasus" />
+    <meta property="og:title" content="Pomodoro Timer" />
+    <meta
+      property="og:description"
+      content="minimalistic pomodoro timer with start, stop and reset buttons."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://pomodor-amxterasus.vercel.app" />
+    <meta property="og:image" content="images/screenshot.png" />
+    <title>pomodor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="title">pomodor</h1>
+      <div class="p-container">
+        <p id="timer">25:00</p>
+        <p id="status">focus</p>
+      </div>
+      <div class="button-container">
+        <button id="start">start</button>
+        <button id="stop" disabled>stop</button>
+        <button id="reset" disabled>reset</button>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
